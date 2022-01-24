@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the branch names from stdin
-BRANCHES=`cat - | cut -f 2`
+BRANCHES=`cut -f 2`
 
 # Merge back the branches into the default branch by 'ours' strategy to discard all the changes
 DEFAULT_BRANCH=master # hard-coded
